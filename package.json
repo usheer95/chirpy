@@ -1,0 +1,27 @@
+{
+  "name": "chirpy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsc && node dist/index.js"	
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usheer95/chirpy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usheer95/chirpy/issues"
+  },
+  "homepage": "https://github.com/usheer95/chirpy#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
